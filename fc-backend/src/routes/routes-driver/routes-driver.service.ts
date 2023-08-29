@@ -23,7 +23,7 @@ export class RoutesDriverService {
 					set: {
 						location: {
 							lat: dto.lat,
-							lgn: dto.lng,
+							lng: dto.lng,
 						},
 					},
 				},
@@ -33,7 +33,7 @@ export class RoutesDriverService {
 					push: {
 						location: {
 							lat: dto.lat,
-							lgn: dto.lng,
+							lng: dto.lng,
 						},
 					},
 				},
